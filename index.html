@@ -45,74 +45,18 @@
         <!--[if IE]>
             <script src="js/html5shiv.js"></script>
         <![endif]-->
+        <script> 
+                $(function(){
+                  $("#header").load("header.html"); 
+                });
+                </script> 
     </head>
 
     <body> 
         <!-- start header -->
-        <header>
-            <!-- start navigation -->
-            <nav class="navbar navbar-default bootsnav navbar-fixed-top header-dark white-link bg-transparent">
-                <div class="container-fluid padding-thirteen-lr md-padding-eight-lr sm-padding-15px-lr nav-header-container">
-                    <div class="row">
-                        <div class="col-md-2 col-xs-5">
-                                <a href="index.html" title="Pofo" class="logo" style = "color: white;
-                                text-shadow: 0px 2px 3px #555; size : 90px">RIPTIDEE</a>
-                        </div>
-                        <div class="col-md-7 col-xs-2 width-auto pull-right accordion-menu xs-no-padding-right">
-                            <button type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse" data-target="#navbar-collapse-toggle-1">
-                                <span class="sr-only">toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <div class="navbar-collapse collapse pull-right" id="navbar-collapse-toggle-1">
-                                <ul id="accordion" class="nav navbar-nav navbar-left no-margin alt-font text-normal" data-in="fadeIn" data-out="fadeOut">
-                                    <!-- start menu item -->
-                                    <li class="dropdown megamenu-fw">
-                                        <a href="javascript:void(0);">Home</a><i class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
-                                        <!-- start sub menu -->
-                                        
-                                    </li>
-                                    
-                                    <li class="dropdown megamenu-fw">
-                                            <a href="services-modern.html">Services</a>
-                                    </li>
-                                    <li class="dropdown megamenu-fw">
-                                            <a href="portfolio-full-width-parallax.html">Portfolio</a>
-                                    </li>
-                                    <li class="dropdown megamenu-fw">
-                                            <a href="our-clients.html">Clients</a>
-                                    </li>
-                                    <li class="dropdown megamenu-fw">
-                                            <a href="team-simple.html">Team</a>
-                                    </li>
-                                    <li class="dropdown megamenu-fw">
-                                            <a href="about-me.html">About Us</a>
-                                    </li>
-                                    <li class="dropdown megamenu-fw">
-                                            <a href="contact-us-classic-02.html">Contact Us</a>
-                                    </li>
-                                    <!-- end menu item -->
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-2 col-xs-5 width-auto">
-                            <div class="header-searchbar">
-                                <a href="home-creative-small-business.html#search-header" class="header-search-form text-white"><i class="fas fa-search search-button"></i></a>
-                                <!-- search input-->
-                                <form id="search-header" method="post" action="search-result.html" name="search-header" class="mfp-hide search-form-result">
-                                    <div class="search-form position-relative">
-                                        <button type="submit" class="fas fa-search close-search search-button"></button>
-                                        <input type="text" name="search" class="search-input" placeholder="Enter your keywords..." autocomplete="off">
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-            <!-- end navigation -->  
-        </header>
+        <h1>Hello </h1>
+        <div id="header">
+        </div>
         <!-- end header -->
         <!-- start parallax hero section -->
         <section class="wow fadeIn no-padding parallax xs-background-image-center" data-stellar-background-ratio="0.5" style="background-image:url('images/parallax-bg4.jpg');">
